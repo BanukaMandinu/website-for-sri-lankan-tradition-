@@ -1,0 +1,53 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+
+}
+
+
+.sitemap {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 10vh;
+}
+
+.btnLink {
+    cursor: pointer;
+}
+
+.Box {
+    fill: #121212;
+    stroke: #f10303;
+    stroke-width: 5;
+    transition: fill 0.2s ease-in-out;
+}
+
+.Box:hover {
+    fill: gray;
+}
+
+.text {
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .sitemap {
+        margin: 1em 0;
+    }
+
+    svg {
+        max-width: 100%;
+        height: auto;
+    }
+}
+

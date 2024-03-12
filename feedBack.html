@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Feedback</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+    <link rel="stylesheet" href="css/feedBack.css"/>
+    <link rel="stylesheet" href="css/navigationBar.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script src="https://kit.fontawesome.com/7226fa896c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+            rel="stylesheet"
+    />
+    <script
+            src="https://kit.fontawesome.com/7226fa896c.js"
+            crossorigin="anonymous"
+    ></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awsome/5.15.2/css/all.min.css/"
+    />
+</head>
+<header>
+    <div class="NavigationBar">
+
+        <a href="index.html"><img src="Images/Logo.png" class="logo" alt="Logo"/></a>
+        <ul>
+            <li><a href="mainPage.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="feedBack.html">Comments</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li class="dropdown">
+                <a href="#">Content</a>
+                <div class="dropdown-content">
+                    <a href="festivals.html">Festivals</a>
+                    <a href="forests.html">Forests</a>
+                    <a href="foods.html">Foods</a>
+                    <a href="beaches.html">Beaches</a>
+                </div>
+            </li>
+            <li><a href="thumbnail.html">Thumbnail</a></li>
+            <li><a href="sIteMap.html">Site Map</a></li>
+            <li><a href="aboutUS.html">About us</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+<br><br>
+
+<div class="formbody">          
+    <form action="Thankyou.html">
+      <div class="question-box">
+        <label>How satisfied were you with our website today? Choose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely
+          satisfied?<span style="color: red;"> * </span> </label>
+          <br> <br>
+        <div class="radio-group">
+          <input type="radio" id="rating-0" name="rating" value="0">
+          <label class="radio-label" for="rating-0">0</label>
+          <input type="radio" id="rating-1" name="rating" value="1">
+          <label class="radio-label" for="rating-1">1</label>
+          <input type="radio" id="rating-2" name="rating" value="2">
+          <label class="radio-label" for="rating-2">2</label>
+          <input type="radio" id="rating-3" name="rating" value="3">
+          <label class="radio-label" for="rating-3">3</label>
+          <input type="radio" id="rating-4" name="rating" value="4">
+          <label class="radio-label" for="rating-4">4</label>
+          <input type="radio" id="rating-5" name="rating" value="5">
+          <label class="radio-label" for="rating-5">5</label>
+          <input type="radio" id="rating-6" name="rating" value="6">
+          <label class="radio-label" for="rating-6">6</label>
+          <input type="radio" id="rating-7" name="rating" value="7">
+          <label class="radio-label" for="rating-7">7</label>
+          <input type="radio" id="rating-8" name="rating" value="8">
+          <label class="radio-label" for="rating-8">8</label>
+          <input type="radio" id="rating-9" name="rating" value="9">
+          <label class="radio-label" for="rating-9">9</label>
+          <input type="radio" id="rating-10" name="rating" value="10">
+          <label class="radio-label" for="rating-10">10</label>
+        </div>
+      </div>
+      <br>
+      
+      <div class="question-box">
+   
+        <label>Please could you tell us your reasons for giving this rating?<span style="color: red;"> * </span></label>
+        <br> <br>
+        <textarea name="reasons" required></textarea>
+      </div>
+
+      <br>
+
+      <div class="question-box">
+       
+        <label>How did you want to complete this task today?</label>
+        <br> <br>
+        <select name="task_completion" >
+          <option value="">Select an option</option>
+          <option value="Phone">Phone</option>
+          <option value="Website">Website</option>
+          <option value="Webchat">Webchat</option>
+          <option value="Social media">Social media</option>
+          <option value="Email">Email</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div class="question-box" >
+        <label>How Did you got To know About Ceylon Trails</label>
+        <br> <br>
+        <select name="task_preference">
+          <option value="">Select an option </option>
+          <option value="Facebook">Facebook</option>
+          <option value="YouTube">YouTube</option>
+          <option value="Twitter">Twitter</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Instagram">Instagram</option>
+        </select>
+      </div>   
+      <br>
+    <div>
+      <input type="submit" value="Submit" class="submitbtn">
+    </div>
+         
+    <div>
+        <script src="js/form.js"></script>
+    </div>
+
+      <br>
+</form>
+<br> <br>
+</div>  
+<br><br>
+<br><br><br>
+</body>
+<footer class="footer">
+
+    <ul class="footer__nav">
+        <li class="nav__item">
+            <h2 class="nav__title">Navigation</h2>
+            <ul class="nav__ul">
+                <li>
+              <span class="material-symbols-outlined">
+                </span>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+              <span class="material-symbols-outlined">
+              </span>
+                    <a href="mainPage.html">Comments</a>
+                </li>
+
+                <li>
+                    <a href="thumbnail.html">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="quiz.html">Quiz</a>
+                </li>
+
+                <li>
+                    <a href="sIteMap.html">Site Map</a>
+                </li>
+                <li>
+                    <a href="#">Content</a>
+                </li>
+                <li class="ep">
+                    <a href="student_2.html">Editors Page</a>
+                </li>
+            </ul>
+        </li>
+
+
+        <li class="nav__item">
+            <h2 class="nav__title">Content</h2>
+
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Festivals</a>
+                </li>
+
+                <li>
+                    <a href="#">Hotels</a>
+                </li>
+
+                <li>
+                    <a href="#">Foods</a>
+                </li>
+
+                <li>
+                    <a href="#">Beaches</a>
+                </li>
+
+
+            </ul>
+        </li>
+
+        <li class="nav__item">
+            <h2 class="nav__title">About US</h2>
+
+            <ul class="nav__ul">
+
+                <li>
+                    <a href="student_1.html">Student 1</a>
+                </li>
+
+                <li>
+                    <a href="student_2.html">Student 2</a>
+                </li>
+
+                <li>
+                    <a href="student_3.html">Student 3</a>
+                </li>
+
+                <li>
+                    <a href="student_4.html">Student 4</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="footer__addr">
+        <h2>Contact</h2>
+        <address>
+            <br>
+            57 Ramakrishna Rd, Colombo 00600
+            <br>
+            +94766221125
+            <br>
+            <a class="footer__btn" href="mailto:banuka.20211205@iit.ac.lk">Email Us</a>
+        </address>
+        <img src="Images/Logo.png" class="logo"/>
+        <div class="legal__links">
+            <div class="socialLinks">
+
+                <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"></i></a>
+
+                <a href="https://twitter.com/login?lang=en">
+                    <i class="fa-brands fa-twitter"></i></a>
+
+                <a href="https://www.instagram.com/?hl=en" >
+                    <i class="fa-brands fa-instagram"></i></a>
+
+                <a  href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <br>
+
+        </div>
+        <span><p><br>&copy; 2023, All rights reserved.</p></span>
+    </div>
+
+</footer>
+</html>

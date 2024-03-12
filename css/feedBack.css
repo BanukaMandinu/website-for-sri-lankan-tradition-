@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: black;
+  font-family: "Lato", sans-serif;
+}
+
+.formbody {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+  margin-top: 5%;
+}
+
+.question-box h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.question-box option {
+  font-family: sans-serif;
+}
+.question-boxlabel {
+  display: block;
+  font-family: avenir, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.question-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border: #ccc 1px solid;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+.question-box input[type="radio"] {
+  display: none;
+}
+
+.question-box .radio-label {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: #ccc 1px solid;
+  border-radius: 80%;
+  height: 4+ 0.9px;
+  cursor: pointer;
+  user-select: none;
+}
+.question-box .radio-label:hover {
+  transition: 0.5s;
+  background-size: 200% auto;
+  background-color: rgba(251, 187, 67, 0.561);
+}
+
+.question-box input[type="radio"]:checked + .radio-label {
+  background-color: orange;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  color: #fff;
+}
+
+.question-box select {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: avenir;
+  border-radius: 5px;
+  height: 40px;
+  transition: border-color 0.3s;
+}
+
+.question-box textarea {
+  display: relative;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: avenir;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+
+.submitbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 50px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 15px;
+  background-color: orange;
+  border-radius: 10px;
+}

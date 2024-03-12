@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thumbnail</title>
+    <link rel="stylesheet" href="css/thumbnail.css">
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico" style="border-radius:50%;">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+            rel="stylesheet"
+    />
+    <script
+            src="https://kit.fontawesome.com/7226fa896c.js"
+            crossorigin="anonymous"
+    ></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awsome/5.15.2/css/all.min.css/"
+    />
+
+</head>
+<header>
+    <div class="NavigationBar">
+
+        <a href="mainPage.html"><img src="Images/Logo.png" class="logo" alt="Logo"/></a>
+        <ul>
+            <li><a href="mainPage.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="feedBack.html">Comments</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li class="dropdown">
+                <a href="#">Content</a>
+                <div class="dropdown-content">
+                    <a href="festivals.html">Festivals</a>
+                    <a href="forests.html">Forests</a>
+                    <a href="foods.html">Foods</a>
+                    <a href="beaches.html">Beaches</a>
+                </div>
+            </li>
+            <li><a href="thumbnail.html">Thumbnail</a></li>
+            <li><a href="sIteMap.html">Site Map</a></li>
+            <li><a href="aboutUS.html">About us</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+<div class="color">
+    <select id="rating" name="rating">
+        <option value="excellent">Change colour scheme</option>
+        <option value="d">Dark Mode</option>
+        <option value="dm">Light Mode</option>
+        <option value="bm">Blue</option>
+    </select>
+
+
+    <select id="ratingText" name="rating">
+        <option value="excellent">Change font sizes</option>
+        <option value="small">small</option>
+        <option value="medium">medium Mode</option>
+        <option value="large">large Mode</option>
+    </select>
+    <input type="color" id="colorpicker">
+</div>
+<div class="messages">
+    <h1>Best Places to visit in Sri Lanka</h1>
+
+</div>
+<div class="gallery">
+    <div id="pic" class="item"
+         onclick="zoom('img1.jpg','Sigiriya is a historic and cultural site located in the heart of Sri Lankas central Matale District. Built over 1,500 years ago, this ancient rock fortress is a UNESCO World Heritage Site and a popular tourist attraction. The site is notable for its architectural and engineering accomplishments, which include the construction of a sophisticated water supply system and a palace on top of the rock. Visitors can explore the beautifully landscaped gardens surrounding the base of the rock and climb the steep steps to reach the summit of the fortress, where they can enjoy breathtaking views of the surrounding landscape. Sigiriya is a must-visit destination for anyone interested in ancient history, engineering, and natural beauty.')">
+        <hr/>
+        <img src="Images/img1.jpg">
+        <figure>
+            <figcaption class="font">Central Province</figcaption>
+        </figure>
+
+    </div>
+    <div class="item"
+         onclick="zoom('img2.jpeg','Nilaveli beach is a stunning coastal stretch located on the east coast of Sri Lanka, about 16 kilometers north of Trincomalee. This serene and picturesque beach is well-known for its pristine white sand and crystal-clear turquoise waters, which are ideal for swimming, snorkeling, and scuba diving. The beach is also home to several species of marine life, including colorful fish, sea turtles, and even dolphins. Visitors to Nilaveli can enjoy a range of water sports, such as jet skiing, windsurfing, and banana boat rides. Additionally, the beach is surrounded by lush greenery and is a perfect spot for relaxation and sunbathing, making it a popular destination for tourists and locals alike.')">
+        <img src="Images/img2.jpeg">
+        <figure>
+            <figcaption class="font">Eastern Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img3.jpeg','The Nallur Kandaswamy Temple is an ancient and revered Hindu temple located in the town of Nallur in Jaffna, Sri Lanka. The temple is dedicated to Lord Murugan, the Hindu god of war and victory. It is considered to be one of the most significant Hindu temples in Sri Lanka, and devotees from around the world flock to the temple to offer prayers and seek blessings from the deity. The temple s architecture is breathtaking, with intricate carvings and colorful paintings adorning its walls and ceilings. The annual 25-day Nallur Festival is held at the temple and attracts thousands of visitors, making it one of the largest Hindu festivals in Sri Lanka.')">
+        <img src="Images/img3.jpeg">
+        <figure>
+            <figcaption class="font">Northern Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img4.jpeg','The Galle Dutch Fort, also known as the Galle Fort, is a historic fortification located in the city of Galle, Sri Lanka. The fort was originally built by the Portuguese in the late 16th century and was later expanded and fortified by the Dutch in the 17th century. Today, it stands as a testament to Sri Lanka s colonial past and is a popular tourist attraction. The fort features a range of impressive architecture, including the Galle lighthouse, which is one of the oldest lighthouses in Sri Lanka. The fort also houses several museums, art galleries, and cafes, making it a great place to explore and learn about Sri Lanka s rich history and culture.')">
+        <img src="Images/img4.jpeg">
+        <figure>
+            <figcaption class="font">Southern Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img5.jpeg','Gangaramaya Temple is a prominent Buddhist temple located in the heart of Colombo, the commercial capital of Sri Lanka. The temple was founded in the late 19th century and has since become one of the most iconic landmarks in Colombo. The temple complex is known for its mix of traditional and modern architecture, and houses a museum, library, and meditation center. The temple also features a vast collection of Buddhist artifacts and relics, including ancient manuscripts and statues. Additionally, Gangaramaya Temple is famous for its annual Navam Perahera festival, which is celebrated with great pomp and pageantry and attracts thousands of devotees and visitors from around the world.')">
+        <img src="Images/img5.jpeg">
+        <figure>
+            <figcaption class="font">Western Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img6.jpg','Yapahuwa is an ancient rock fortress located in the North Western province of Sri Lanka. It was once the capital of the country during the 13th century under King Buwanekabahu. The fortress is situated on a massive granite rock that rises more than 300 feet above the surrounding landscape, offering a spectacular panoramic view. The ruins of the fortress contain many architectural marvels, including a towering stupa, a temple complex, and an ornate palace. Yapahuwa is also home to several beautiful cave temples adorned with colorful frescoes and intricate carvings. Today, Yapahuwa is a popular tourist destination, attracting visitors from all over the world who come to explore its rich history and architectural heritage.')">
+        <img src="Images/img6.jpg">
+        <figure>
+            <figcaption class="font">North Western Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img7.jpg','Anuradhapura is an ancient city located in the North Central province of Sri Lanka. It served as the first capital of Sri Lanka from the 4th century BC to the 11th century AD, and is now a UNESCO World Heritage Site. Anuradhapura is home to numerous ancient ruins, including towering stupas, massive monasteries, and elaborate palaces. The city is also home to the Sri Maha Bodhi, a sacred fig tree believed to be the oldest living tree in the world and a revered site for Buddhists. Anuradhapura is a popular destination for tourists and pilgrims alike who come to explore its rich history and spiritual significance.')">
+        <img src="Images/img7.jpg">
+        <figure>
+            <figcaption class="font">North Central Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img8.jpg','Ella is a charming small town nestled in the central highlands of Sri Lanka, surrounded by lush green hills, tea plantations, and cascading waterfalls. The town s mild climate and scenic beauty make it a popular destination for tourists seeking relaxation and adventure. One of the town s main attractions is the stunning Ella Rock, which offers breathtaking panoramic views of the surrounding landscape. Ella is also home to the Nine Arch Bridge, an iconic railway bridge that spans a picturesque valley. Visitors can enjoy hiking, trekking, and exploring the town s many tea factories, shops, and restaurants, making Ella a must-visit destination for anyone traveling to Sri Lanka.')">
+        <img src="Images/img8.jpg">
+        <figure>
+            <figcaption class="font">Uva Province</figcaption>
+        </figure>
+    </div>
+    <div class="item"
+         onclick="zoom('img9.jpg','The Pinnawala Elephant Orphanage is a unique and popular tourist attraction located in Sri Lanka. The orphanage was established in 1975 with the goal of providing a safe haven for orphaned and injured elephants in Sri Lanka. The site is now home to over 80 elephants, including baby elephants who were born at the orphanage. Visitors can watch the elephants being fed, bathed, and playing in the nearby river, providing an unforgettable experience. The orphanage also provides opportunities for visitors to interact with the elephants, including the chance to feed and bathe them. The Pinnawala Elephant Orphanage is a must-visit destination for anyone interested in wildlife and conservation efforts.')">
+        <img src="Images/img9.jpg">
+        <figure>
+            <figcaption class="font">Sabaragamuwa Province</figcaption>
+        </figure>
+    </div>
+</div>
+<br><br><br>
+<div class="main-pic-center"><img id="changePicture" alt=""></div>
+<div><p id="changeText"></p></div>
+<div><p id="changeText2"></p></div>
+
+<footer class="footer">
+
+    <ul class="footer__nav">
+        <li class="nav__item">
+            <h2 class="nav__title">Navigation</h2>
+            <ul class="nav__ul">
+                <li>
+              <span class="material-symbols-outlined">
+                </span>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+              <span class="material-symbols-outlined">
+              </span>
+                    <a href="mainPage.html">Comments</a>
+                </li>
+
+                <li>
+                    <a href="thumbnail.html">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="quiz.html">Quiz</a>
+                </li>
+
+                <li>
+                    <a href="sIteMap.html">Site Map</a>
+                </li>
+                <li>
+                    <a href="#">Content</a>
+                </li>
+                <li class="ep">
+                    <a href="student_3.html">Editors Page</a>
+                </li>
+            </ul>
+        </li>
+
+
+        <li class="nav__item">
+            <h2 class="nav__title">Content</h2>
+
+            <ul class="nav__ul">
+                <li>
+                    <a href="ContentPage1.html>Festivals</a>
+                </li>
+
+                <li>
+                    <a href="#">Hotels</a>
+                </li>
+
+                <li>
+                    <a href="C">Foods</a>
+                </li>
+
+                <li>
+                    <a href="beaches.html">Beaches</a>
+                </li>
+
+
+            </ul>
+        </li>
+
+        <li class="nav__item">
+            <h2 class="nav__title">About US</h2>
+
+            <ul class="nav__ul">
+
+                <li>
+                    <a href="student_1.html">Student 1</a>
+                </li>
+
+                <li>
+                    <a href="student_2.html">Student 2</a>
+                </li>
+
+                <li>
+                    <a href="student_3.html">Student 3</a>
+                </li>
+
+                <li>
+                    <a href="student_4.html">Student 4</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="footer__addr">
+        <h2>Contact</h2>
+        <address>
+            <br>
+            57 Ramakrishna Rd, Colombo 00600
+            <br>
+            +94766221125
+            <br>
+            <a class="footer__btn" href="mailto:banuka.20211205@iit.ac.lk">Email Us</a>
+        </address>
+        <img src="Images/Logo.png" class="logo" alt="Logo"/>
+        <div class="legal__links">
+            <div class="socialLinks">
+
+              <a href="https://www.facebook.com/">
+                  <i class="fa-brands fa-facebook"></i></a>
+
+                <a href="https://twitter.com/login?lang=en">
+                    <i class="fa-brands fa-twitter"></i></a>
+
+                <a href="https://www.instagram.com/?hl=en" >
+                    <i class="fa-brands fa-instagram"></i></a>
+
+                <a  href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <br>
+
+        </div>
+        <span><p><br>&copy; 2023, All rights reserved.</p></span>
+    </div>
+
+</footer>
+
+<script src="js/thumbnail.js"></script>
+</body>
+</html>

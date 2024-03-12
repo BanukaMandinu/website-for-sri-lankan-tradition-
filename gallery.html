@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/navigationBar.css">
+  <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+  <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+            rel="stylesheet"
+    />
+    <script
+            src="https://kit.fontawesome.com/7226fa896c.js"
+            crossorigin="anonymous"
+    ></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awsome/5.15.2/css/all.min.css/"
+    />
+
+</head>
+<header>
+  <div class="NavigationBar">
+    <a  href="mainPage.html"><img src="Images/Logo.png" class="logo" /></a>
+
+      <ul>
+          <li><a href="mainPage.html">Home</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="feedBack.html">Comments</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li class="dropdown">
+              <a href="#">Content</a>
+              <div class="dropdown-content">
+                  <a href="festivals.html">Festivals</a>
+                  <a href="forests.html">Forests</a>
+                  <a href="foods.html">Foods</a>
+                  <a href="beaches.html">Beaches</a>
+              </div>
+          </li>
+          <li><a href="thumbnail.html">Thumbnail</a></li>
+          <li><a href="sIteMap.html">Site Map</a></li>
+          <li><a href="aboutUS.html">About us</a></li>
+      </ul>
+  </div>
+</header>
+<body >
+  <div class="color">
+
+  <select id="rating" name="rating">
+    <option value="excellent">Change colour scheme</option>
+    <option value="d">Dark Mode</option>
+    <option value="dm">Light Mode</option>
+    <option value="bm">Blue</option>
+  </select>
+
+
+  <select id="ratingText" name="rating">
+    <option value="excellent">Change font sizes</option>
+    <option value="small">small</option>
+    <option value="medium">medium Mode</option>
+    <option value="large">large Mode</option>
+  </select>
+  
+		</div>
+	</div>
+    <div class="messages">
+    <h1>Best Places to visit in Sri Lanka</h1>
+    
+    </div>
+    <div class="gallery">
+        <div id="pic" class="item" onclick="zoom('img1.jpg','Sigiriya is a historic and cultural site located in the heart of Sri Lankas central Matale District. Built over 1,500 years ago, this ancient rock fortress is a UNESCO World Heritage Site and a popular tourist attraction. The site is notable for its architectural and engineering accomplishments, which include the construction of a sophisticated water supply system and a palace on top of the rock. Visitors can explore the beautifully landscaped gardens surrounding the base of the rock and climb the steep steps to reach the summit of the fortress, where they can enjoy breathtaking views of the surrounding landscape. Sigiriya is a must-visit destination for anyone interested in ancient history, engineering, and natural beauty.')">
+          <hr/>
+          <img src="Images/img1.jpg">
+          <figure>
+            <figcaption class="font">Sigiriya</figcaption>
+          </figure>
+          
+        </div>
+        <div class="item" onclick="zoom('img3.jpg','Sri Dalada Maligawa, also known as the Temple of the Tooth, is a Buddhist temple located in the city of Kandy, Sri Lanka. The temple is famous for housing the relic of the tooth of Buddha, which is considered one of the most sacred objects in Buddhism. Every year, the temple hosts the Esala Perahera festival, a grand procession that features dancers, drummers, and beautifully decorated elephants carrying a replica of the sacred tooth relic. The temple complex also features a museum that displays various artifacts and historical information related to the tooth relic and the temples history. Sri Dalada Maligawa is a significant pilgrimage site for Buddhists and an important cultural landmark in Sri Lanka.')">
+          <img src="Images/img3.jpg">
+          <figure>
+            <figcaption class="font">Sri Dalada Maligawa</figcaption>
+          </figure>
+        </div>
+        <div class="item" onclick="zoom('img4.jpg','Jetavanaramaya is a historic Buddhist temple located in the ancient city of Anuradhapura in Sri Lanka. Built by King Mahasena in the 3rd century AD, Jetavanaramaya is one of the largest brick structures in the world and was once one of the tallest structures in ancient times. The temple is named after the Jetavana monastery in India, where Buddha is said to have spent several rainy seasons during his lifetime. Jetavanaramaya is an important pilgrimage site for Buddhists and features several ancient relics and artifacts, including a part of Buddha s belt and a sacred Bo tree. The temple s impressive architecture and rich history make it a popular tourist destination in Sri Lanka.')">
+          <img src="Images/img4.jpg">
+          <figure>
+            <figcaption class="font">Jetavanaramaya</figcaption>
+          </figure>
+        </div>
+        <div class="item" onclick="zoom('img5.jpg','The Dambulla Royal Cave Temple, also known as the Golden Temple of Dambulla, is a renowned Buddhist temple complex located in central Sri Lanka. The temple is built into a massive rock outcropping and features five caves that contain over 150 stunningly preserved Buddha statues, many of which are over 2,000 years old. The site is considered one of the best-preserved cave temples in the world and is a UNESCO World Heritage Site. Visitors to the Dambulla Royal Cave Temple can also explore the beautiful surrounding gardens and enjoy panoramic views of the surrounding countryside. The temple s historical and religious significance, as well as its impressive architecture and art, make it a must-visit destination in Sri Lanka.')">
+          <img src="Images/img5.jpg">
+          <figure>
+           <figcaption class="font">Dambulla Royal Cave Temple</figcaption>
+          </figure>
+        </div>
+        <div class="item" onclick="zoom('img6.jpg','Kandy is a vibrant city located in the heart of Sri Lanka, known for its rich cultural heritage and stunning natural beauty. The city is home to several important landmarks, including the Sri Dalada Maligawa, or the Temple of the Tooth, which houses the relic of Buddha s tooth. Visitors can also explore the beautiful Kandy Lake, a scenic man-made lake surrounded by lush greenery. The city is famous for its Esala Perahera festival, a grand procession featuring decorated elephants, dancers, and drummers, which takes place every year in August. Kandy is a popular tourist destination for its fascinating history, stunning architecture, and breathtaking landscapes.')">
+          <img src="Images/img6.jpg">
+          <figure>
+            <figcaption class="font">Kandy</figcaption>
+          </figure>
+        </div>
+        <div class="item" onclick="zoom('img7.png','The Pinnawala Elephant Orphanage is a unique and popular tourist attraction located in Sri Lanka. The orphanage was established in 1975 with the goal of providing a safe haven for orphaned and injured elephants in Sri Lanka. The site is now home to over 80 elephants, including baby elephants who were born at the orphanage. Visitors can watch the elephants being fed, bathed, and playing in the nearby river, providing an unforgettable experience. The orphanage also provides opportunities for visitors to interact with the elephants, including the chance to feed and bathe them. The Pinnawala Elephant Orphanage is a must-visit destination for anyone interested in wildlife and conservation efforts.')">
+            <img src="Images/img7.png">
+            <figure>
+              <figcaption class="font">Pinnawala Elephant Orphanage</figcaption>
+            </figure>
+        </div>    
+    </div>
+    <br><br><br>
+    <div class="main-pic-center"><img id="changePicture" alt=""></div>
+    <div><p id="changeText"></p></div>
+    <div><p id="changeText2"></p></div>
+
+    <footer class="footer">
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Navigation</h2>
+          <ul class="nav__ul">
+            <li>
+              <span class="material-symbols-outlined">
+                </span>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <span class="material-symbols-outlined">
+              </span>
+              <a href="mainPage.html">Comments</a>
+            </li>
+
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+
+            <li>
+              <a href="quiz.html">Quiz</a>
+            </li>
+
+            <li>
+              <a href="sIteMap.html">Site Map</a>
+            </li>
+            <li>
+              <a href="#">Content</a>
+            </li>
+            <li class = "ep">
+              <a href="student_4.html">Editors Page</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Buy Products</h2>
+
+          <ul class="nav__ul">
+            <li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Content</h2>
+
+          <ul class="nav__ul">
+              <li>
+                  <a href="#">Festivals</a>
+              </li>
+
+              <li>
+                  <a href="#">Hotels</a>
+              </li>
+
+              <li>
+                  <a href="#">Foods</a>
+              </li>
+
+              <li>
+                  <a href="#">Beaches</a>
+              </li>
+
+
+          </ul>
+      </li> class="nav__ul">
+
+            <li>
+              <a href="student_1.html">Student 1</a>
+            </li>
+
+            <li>
+              <a href="student_2.html">Student 2</a>
+            </li>
+
+            <li>
+              <a href="student_3.html">Student 3</a>
+            </li>
+
+            <li>
+              <a href="student_4.html">Student 4</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer__addr">
+        <h2>Contact</h2>
+        <address>
+          <br>
+          57 Ramakrishna Rd, Colombo 00600
+          <br>
+          +94766221125
+          <br>
+            <a class="footer__btn" href="mailto:banuka.20211205@iit.ac.lk">Email Us</a>
+        </address>
+        <img src="Images/Logo.png" class="logo" />
+          <div class="legal__links">
+              <div class="socialLinks">
+
+                  <a href="https://www.facebook.com/">
+                      <i class="fa-brands fa-facebook"></i></a>
+
+                  <a href="https://twitter.com/login?lang=en">
+                      <i class="fa-brands fa-twitter"></i></a>
+
+                  <a href="https://www.instagram.com/?hl=en" >
+                      <i class="fa-brands fa-instagram"></i></a>
+
+                  <a  href="https://www.youtube.com/">
+                      <i class="fa-brands fa-youtube"></i></a>
+              </div>
+              <br>
+
+          </div>
+          <span><p><br>&copy; 2023, All rights reserved.</p></span>
+      </div>
+
+    </footer>
+
+    <script src="js/thumbnail.js"></script>
+</body>
+</html>
